@@ -41,10 +41,42 @@ nav {
     font-weight: bold;
     font-family: "Raleway";
     margin-bottom: 37px;
+    color: #252432;
 }
 .banner{
     text-align: center;
     padding-top: 310px;
     padding-bottom: 152px; /* Changed from margin-bottom */
 }
+main{
+    margin: 0px auto;
+    background-color: #F5F8FF;
+}
+.secondary-bg{
+    background-color: #F5F8FF;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    gap: 220px;
+    padding: 120px 140px;
+    align-items: center;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Raleway";
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.action-description{
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Raleway";
+    color:rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+.wc-mini{
+    border-radius: 48px;
 }
