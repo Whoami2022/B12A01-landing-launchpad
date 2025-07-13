@@ -52,9 +52,7 @@ main{
     margin: 0px auto;
     background-color: #F5F8FF;
 }
-.secondary-bg{
-    background-color: #F5F8FF;
-}
+
 .action{
     display: flex;
     justify-content: space-between;
@@ -79,4 +77,38 @@ main{
 }
 .wc-mini{
     border-radius: 48px;
+}
+.productive_user{
+    margin: 120px 140px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+
+}
+
+.users-data{
+    display: flex;
+    gap:150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 120px;
+}
+.pro-u-title{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Raleway";
+    color: #252432;
+    padding: 50px 142px;
+    text-align: center;
+}
+.data-info{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Inter";
+    color: #4E47FF;
+}
+.data-description{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Inter";
+    color: rgba(0, 0, 0, 0.5);
 }
