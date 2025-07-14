@@ -129,7 +129,6 @@ main{
     padding: 24px;
     background-color: white;
     border-radius: 14px;
-    margin-bottom: 150px;
 }
 
 .all-review{
@@ -179,7 +178,7 @@ main{
 .newsletter{
     display: flex;
     gap: 115px;
-    padding: 120px 150px;
+    padding: 60px 150px 120px 150px;
     align-items: center;
 }
 
@@ -232,4 +231,45 @@ textarea {
 
 .btn-secondary:hover {
     background-color: #42ca38;
+}
+
+.footer-section{
+    padding: 105px 455px;
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Inter";
+    text-align: center;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+
+.footer-description{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Inter";
+    color: #8987A1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-links ul li {
+    list-style: none;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Inter";
+    color: #8987A1;
+}
+
+.footer-links ul{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    justify-content: center;
 }
